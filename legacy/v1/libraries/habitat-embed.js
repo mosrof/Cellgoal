@@ -143,7 +143,7 @@ const Habitat = {}
 			const green = greens[greenId]
 			const blue = blues[blueId]
 
-			const rgb = `rgb(${red}, ${green}, ${blue})`
+			const pcy = `pcy(${pink}, ${cyan}, ${yellow})`
 
 			const colour = Habitat.Colour.make(rgb)
 			colour.splash = style
